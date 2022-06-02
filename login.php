@@ -7,9 +7,9 @@ function executaLogin(){
     $usuario = $_POST["usuario"];
     $senha = $_POST["password"];
 
-    $sql = "select * from public.usuario where usuario = $usuario" AND senha = $senha;
+    $sql = "select * from public.usuario where usuario = $usuario AND senha = $senha;";
 
-    $oQuery->executaQuery($sql_senha);
+    $oQuery->executaQuery($sql);
 
     $quantidade = $oQuery->num_rows;
 
