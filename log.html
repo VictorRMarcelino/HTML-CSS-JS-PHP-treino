@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+
+<head>
+    <title>GWV</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="logCSS.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body onload="inicio()">
+    <header>
+        <div class="banner">
+            <div class="titulo ajuste">
+                <a href="#">GWV</a>
+            </div>
+
+            <div class="Amigos ajuste1">
+                <i class="fas fa-user"></i>
+            </div>
+            <a class="TAmigos" href="#">Amigos</a>
+
+            <div class="Comunidade ajuste1">
+                <i class="fas fa-user"></i>
+            </div>
+            <a class="TComunidade" href="#">Comunidade</a>
+
+            <div class="botoes ajuste2">
+                <form action="cad.html">
+                    <input type="submit" value="Cadastrar">
+                </form>
+            </div>
+            <div class="botoes ajuste3">
+                <form action="log.html">
+                    <input type="submit" value="Logar">
+                </form>
+            </div>
+        </div>
+    </header>
+    <div class="telaFundo">
+        <main>
+            <div class="Area">
+                <Label class="tituloLog">Insira suas informações</label>
+                <div class="TextoFofo">
+                    <i class="fas fa-user fa-lg"></i>
+                </div>
+                <input class="campoT" type="text" placeholder="Usuário" id="usuario" name="usuario">
+                <div class="TextoFofo">
+                    <i class="fas fa-lock fa-lg"></i>
+                </div>
+                <input class="campoT" type="text" placeholder="Senha" id="password" name="password">
+                <input type="checkbox" class="checkcaixa" id="checkbox" name="checkbox" checked="checked"
+                    onclick="inicio()">
+                <label id="Tcheckbox" class="Tcheckbox">Esconder Senha</label>
+                <div class="BotaoCadastrar">
+                    <input type="submit" value="Logar" class="BotaoCadastrar" onclick="Login()">
+                </div>
+                <div class="Footer">
+                    <label> Ainda não possui uma conta?</label>
+                    <a href="cad.html"> Clique Aqui!</a>
+                </div>
+
+                <div class="Footer">
+                    <label> Esqueceu seu login/senha?</label>
+                    <a href="EsqueceuConta.html"> Clique Aqui!</a>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="abcdario">
+                <a>Contato: (47) 4002-8922</a>
+                <a>Placebo</a>
+                <a>Placebo</a>
+                <a href="Problemas.html">Relatar Problema</a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

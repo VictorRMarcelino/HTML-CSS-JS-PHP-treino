@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    width: 100vw;
+    height: 70px;
+    background: #005757;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 0px;
+    border-bottom: 2px solid black;
+}
+
+.ajuste {
+    margin-left: 30px;
+    margin-right: 150px;
+}
+
+.ajuste1 {
+    margin-left: 310px;
+    margin-right: -20px;
+}
+
+.ajuste2 {
+    margin-left: 350px;
+    margin-right: -10px;
+}
+
+.ajuste3 {
+    margin-left: 60px;
+}
+
+.titulo a {
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    padding-left: 120px;
+}
+
+.Amigos {
+    font-size: 20px;
+    border: none;
+    width: 50px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.TAmigos {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.Comunidade {
+    font-size: 20px;
+    border: none;
+    width: 50px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.TComunidade {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.botoes input {
+    font-size: 18px;
+    border: none;
+    width: 90px;
+    height: 30px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    right: 120px;
+
+}
+
+.botoes input:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+[type="submit"]:active {
+    box-shadow: 0 0 20px red;
+}
+
+body {
+    overflow: hidden;
+    background-color: #002b2b;
+}
+
+.telaFundo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #002b2b;
+}
+
+.tituloLog {
+    color: black;
+    margin-left: 138px;
+    height: 100px;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+}
+
+.Area {
+    background-color: #00262b;
+    width: 500px;
+    height: 225px;
+    margin-top: 19%;
+    margin-left: 33%;
+    border-style: solid;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -125px;
+    margin-left: -220px;
+}
+
+.Texto {
+    font-size: 24px;
+}
+
+.TextoFofo {
+    position: relative;
+    margin-top: 50px;
+    font-size: 20px;
+    margin-left: 20%;
+    color: #fff;
+}
+
+.BotaoCadastrar input {
+    position: relative;
+    margin-left: 165px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #4A79B9;
+    font-size: 20px;
+}
+
+.campoT {
+    position: relative;
+    top: -26px;
+    width: 285px;
+    margin-left: 135px;
+    height: 25px;
+    background-color: lightgray;
+    border-style: solid;
+    border-color: lightgray;
+    font-size: 15px;
+}
+
+.campoT:focus {
+    background-color: #fff;
+    border-style: solid;
+    border-color: #fff;
+    font-size: 17px;
+}
+
+
+.footer {
+    margin-left: 135px;
+    margin-top: 25px;
+    text-decoration: overline;
+    text-decoration-color: grey;
+    font-size: 18px;
+}
+
+.footer label {
+    color: grey;
+}
+
+.footer a {
+    color: #5A66FF;
+    text-decoration: none;
+    text-decoration-color: grey;
+}
+
+.footer a:visited {
+    color: #5A66FF;
+}
