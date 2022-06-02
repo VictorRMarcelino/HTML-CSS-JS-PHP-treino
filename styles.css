@@ -113,7 +113,7 @@
 
            .tituloCad {
                color: black;
-               margin-left: 148px;
+               margin-left: 140px;
                height: 100px;
                font-size: 25px;
                text-align: center;
@@ -129,8 +129,8 @@
                position: absolute;
                left: 50%;
                top: 50%;
-               margin-top: -275px;
-               margin-left: -225px;
+               margin-top: -305px;
+               margin-left: -235px;
                border-style: solid;
 
            }
@@ -150,6 +150,7 @@
                position: relative;
                top: -17px;
                width: 275px;
+               margin-left: 3px;
            }
 
            .Tcheckbox {
@@ -161,7 +162,7 @@
            }
 
            .BotaoCadastrar input {
-               margin-left: 185px;
+               margin-left: 175px;
                font-size: 18px;
                background-color: #4DB149;
                color: #fff;
@@ -210,23 +211,43 @@
                color: #5A66FF;
            }
 
-           @media only screen and (max-width: 1360px) and (max-height: 768px) {
-               .ajuste {
-                   margin-left: -10px;
-                   margin-right: 50px;
-               }
+           .abcdario{
+            position: absolute;
+                width: 100vw;
+                height: 70px;
+                background-color: #00262b;
+                top: 800px;
+                border-top: 2px solid black;
+                border-bottom: 2px solid black;
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+                align-items: center;
+        }
+        .abcdario a{
+            margin-right: 120px;
+            padding-left: 120px;
+            color: grey;
+            text-decoration: none;
+        }
+        .abcdario a:hover{
+            text-decoration: underline overline 2px dotted;
+            text-decoration-color: black;
+        }
 
-               .ajuste1 {
-                   margin-left: 220px;
-                   margin-right: 10px;
-               }
+        .textoCanto{
+          position: absolute;
+          color: #fff;
+          left: 1350px;
+          margin-top: 350px;
+          font-size: 30px;
+          font-family: "Cursive", Lucida Handwriting;
+        }
 
-               .ajuste2 {
-                   margin-left: 160px;
-                   margin-right: -20px;
-               }
-
-               .ajuste3 {
-                   margin-left: 60px;
-               }
-           }
+        .logo img{
+            position: absolute;
+            height: 400px;
+            width: 400px; 
+            top: 200px;
+            left: 155px;
+        }

@@ -19,8 +19,8 @@
 }
 
 .ajuste {
- margin-left: 30px;
- margin-right: 150px;
+    margin-left: 30px;
+    margin-right: 150px;
 }
 
 .ajuste1 {
@@ -92,7 +92,7 @@
 }
 
 .botoes input:hover {
- background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 [type="submit"]:active {
@@ -104,50 +104,77 @@ body {
     background-color: #002b2b;
 }
 
-            [type="submit"]:active{
-                box-shadow: 0 0 20px red;
-            }
-            .telaFundo {
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                background-color: #002b2b;
-            }
-            .publicacoes{
-                position: absolute;
-                left:50%;
-                margin-left: -190px;
-                width: 450px;
-                height: 100%;
-                background: #002b2b;       
-                border-style: solid;
-                top:0px;
-            } 
-            .textoPublic{
-                position: absolute;
-                width: 450px;
-                height: 135px;
-                background: #002b2b;       
-                border-style: solid;
-                background-color: #fff;
-                font-family: "Times New Roman", Serif;
-                font-size: 18px;
-                overflow-y: hidden;
-                resize: none;
-                left:5%;
-                top: 15%;
-            } 
-            .botaoPublic{
-                 height: 45px;
-                 width:75px;
-                 position: absolute;
-                 margin-top:300px;
-                 margin-left: 382px;
-                 font-family: "Times New Roman", Serif;
-                 font-size: 18px;
-                 background-color: grey;
-                 color: #fff;
-                 cursor: pointer;
-                 left:4%;
-                 margin-left: 395px;
-            }
+[type="submit"]:active {
+    box-shadow: 0 0 20px red;
+}
+
+.telaFundo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #002b2b;
+}
+
+.publicacoes {
+    position: absolute;
+    left: 50%;
+    margin-left: -190px;
+    width: 450px;
+    height: 100%;
+    background: #002b2b;
+    border-style: solid;
+    top: 0px;
+}
+
+
+.textoPublic {
+    position: absolute;
+    width: 450px;
+    height: 135px;
+    background: #002b2b;
+    border-style: solid;
+    background-color: #fff;
+    font-family: "Times New Roman", Serif;
+    font-size: 18px;
+    overflow-y: hidden;
+    resize: none;
+    left: 5%;
+    top: 15%;
+}
+
+.botaoPublic {
+    height: 45px;
+    width: 75px;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 382px;
+    font-family: "Times New Roman", Serif;
+    font-size: 18px;
+    background-color: grey;
+    color: #fff;
+    cursor: pointer;
+    left: 4%;
+    margin-left: 395px;
+}
+
+.visualizacaoS{
+    height: 35px;
+    width: 150px;
+    position: absolute;
+    top: 305px;
+    left: 235px;
+    font-family: "Times New Roman", Serif;
+    font-size: 18px;
+
+}
+.visualizacao{
+    height: 35px;
+    width: 250px;
+    position: absolute;
+    top: 310px;
+    left: 95px;
+    font-family: "Times New Roman", Serif;
+    font-size: 18px;
+    color: #fff;
+
+}

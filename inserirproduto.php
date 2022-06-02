@@ -15,6 +15,23 @@ function executaInclusao() {
 
     $oQuery->executaQuery($sql_insert);
 
+
+/**
+ CREATE TABLE public.publisGerais (
+    id serial NOT NULL,
+    usuario varchar(100) NOT NULL,
+    publicacao varchar(30) NOT NULL,
+    CONSTRAINT publisGerais_pkey PRIMARY KEY (id)
+);
+ */
+
+    $sql_create = "CREATE TABLE public.$usuario (
+        amigos varchar(100) NOT NULL,
+        publicacoesPessoais varchar(275) NOT NULL,
+        );";
+
+    $oQuery->executaQuery($sql_create);
+
     require_once("log.html");
     
 }

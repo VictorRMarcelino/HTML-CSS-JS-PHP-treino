@@ -5,6 +5,7 @@
 }
 
 .banner {
+    margin-top: auto;
     width: 100vw;
     height: 70px;
     background: #005757;
@@ -113,25 +114,25 @@ body {
 
 .tituloLog {
     color: black;
-    margin-left: 138px;
     height: 100px;
-    font-size: 25px;
+    font-size: 100px;
     text-align: center;
     color: #fff;
 }
 
 .Area {
     background-color: #00262b;
-    width: 500px;
-    height: 225px;
+    width: 600px;
+    height: 800px;
     margin-top: 19%;
     margin-left: 33%;
     border-style: solid;
     position: absolute;
-    left: 50%;
+    left: 45%;
     top: 50%;
-    margin-top: -125px;
+    margin-top: -300px;
     margin-left: -220px;
+    text-align: center;
 }
 
 .Texto {
@@ -141,30 +142,27 @@ body {
 .TextoFofo {
     position: relative;
     margin-top: 50px;
-    font-size: 20px;
-    margin-left: 20%;
+    font-size: 150px;
     color: #fff;
 }
 
 .BotaoCadastrar input {
     position: relative;
-    margin-left: 165px;
-    margin-top: 20px;
+    margin-top: 40px;
     color: #fff;
     background-color: #4A79B9;
-    font-size: 20px;
+    font-size: 40px;
+    
 }
 
 .campoT {
     position: relative;
-    top: -26px;
-    width: 285px;
-    margin-left: 135px;
-    height: 25px;
+    width: 400px;
+    height: 70px;
     background-color: lightgray;
     border-style: solid;
     border-color: lightgray;
-    font-size: 15px;
+    font-size: 33px;
 }
 
 .campoT:focus {
@@ -176,11 +174,10 @@ body {
 
 
 .footer {
-    margin-left: 135px;
-    margin-top: 25px;
+    margin-top: 50px;
     text-decoration: overline;
     text-decoration-color: grey;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .footer label {
